@@ -111,6 +111,7 @@ h1 {
   footer {
     text-align: center;
     font-family: 'Alice', sans-serif;
+    line-height: 150%;
   }
 
   footer img {
