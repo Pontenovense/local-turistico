@@ -1,4 +1,13 @@
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
 
+#page {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 80px;
+    width: 1120px;
+}
 
 .divider {
     width: 100%;
@@ -10,4 +19,66 @@
   .headline {
     color: #E1624F;
     font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  img {
+    border-radius: 28px;
+    width: 100%;
+  }
+
+  div section img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  #description {
+    font-style: italic;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .history {
+    color: #0C51A7;
+  }
+
+  li {
+    font-weight: bold;
+  }
+
+  #casais {
+    color: #591B98;
+  }
+
+  #familias {
+    color: #E5245E;
+  }
+
+  #orcamento {
+    color: #E95E10;
+  }
+
+  ul li::marker {
+    color: black;
+  }
+
+  #final {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
   }
