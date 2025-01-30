@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     font-family: 'Open Sans', sans-serif;
 }
@@ -5,8 +10,13 @@
 #page {
     box-sizing: border-box;
     margin: auto;
-    padding: 80px;
+    padding: 80px 88px;
     width: 1120px;
+}
+
+h1 {
+    margin-top: 8px;
+    margin-bottom: 40px;
 }
 
 .divider {
@@ -14,6 +24,14 @@
     height: 1px;
     margin: 36px 0;
     background-color: #d9d9d9;
+  }
+
+  #divider1 {
+    margin-bottom: 64px;
+  }
+
+  #divider2 {
+    margin-bottom: 40px;
   }
 
   .headline {
@@ -30,23 +48,38 @@
   div section img {
     height: 400px;
     object-fit: cover;
+    margin-bottom: 20px;
   }
 
   #description {
     font-style: italic;
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 44px;
   }
 
   h2 {
     font-size: 32px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+
+  h2 + p {
+    margin-bottom: 64px;
   }
 
   h3 {
     font-size: 28px;
+    margin-bottom: 4px;
   }
 
   .history {
     color: #0C51A7;
+    margin-bottom: 48px;
+  }
+
+  ul {
+    padding-left: 25px;
   }
 
   li {
@@ -63,6 +96,7 @@
 
   #orcamento {
     color: #E95E10;
+    margin-bottom: 40px;
   }
 
   ul li::marker {
@@ -71,10 +105,12 @@
 
   #final {
     text-align: center;
+    margin-bottom: 65px;
   }
 
   footer {
     text-align: center;
+    font-family: 'Alice', sans-serif;
   }
 
   footer img {
